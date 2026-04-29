@@ -1,0 +1,3 @@
+module IdentiMeAuth {
+    header "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/include/IdentiMeAuth-Swift.h"
+}

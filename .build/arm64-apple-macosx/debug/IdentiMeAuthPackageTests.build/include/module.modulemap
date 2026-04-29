@@ -1,0 +1,3 @@
+module IdentiMeAuthPackageTests {
+    header "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/include/IdentiMeAuthPackageTests-Swift.h"
+}

@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/primary.swiftdeps"
+  },
+  "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeAuth.swift": {
+    "dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.d",
+    "object": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.swift.o",
+    "swiftmodule": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth~partial.swiftmodule",
+    "swift-dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.swiftdeps",
+    "diagnostics": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.dia"
+  },
+  "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeConfig.swift": {
+    "dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.d",
+    "object": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.swift.o",
+    "swiftmodule": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.swiftdeps",
+    "diagnostics": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.dia"
+  },
+  "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeError.swift": {
+    "dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.d",
+    "object": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.swift.o",
+    "swiftmodule": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError~partial.swiftmodule",
+    "swift-dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.swiftdeps",
+    "diagnostics": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.dia"
+  },
+  "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeLoginButton.swift": {
+    "dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.d",
+    "object": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.swift.o",
+    "swiftmodule": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.swiftdeps",
+    "diagnostics": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.dia"
+  },
+  "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeToken.swift": {
+    "dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.d",
+    "object": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.swift.o",
+    "swiftmodule": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken~partial.swiftmodule",
+    "swift-dependencies": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.swiftdeps",
+    "diagnostics": "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.dia"
+  }
+}

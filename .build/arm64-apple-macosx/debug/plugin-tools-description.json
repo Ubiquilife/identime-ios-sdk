@@ -1,0 +1,678 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.xctest/Contents/MacOS/IdentiMeAuthPackageTests",
+      "packagePath" : "/Users/robbielove/uqdev/identime-ios-sdk",
+      "productName" : "IdentiMeAuthPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.IdentiMeAuth-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/sources",
+      "importPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeAuth.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeLoginButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeToken.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "IdentiMeAuth",
+      "moduleOutputPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuth.swiftmodule",
+      "objects" : [
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.swift.o",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.swift.o",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.swift.o",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.swift.o",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/include/IdentiMeAuth-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "identime_ios_sdk"
+      ],
+      "outputFileMapPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuth.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeAuth.swift",
+        "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeConfig.swift",
+        "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeError.swift",
+        "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeLoginButton.swift",
+        "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeToken.swift"
+      ],
+      "tempsPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.IdentiMeAuthPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/sources",
+      "importPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuthTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "IdentiMeAuthPackageTests",
+      "moduleOutputPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuthPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/include/IdentiMeAuthPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "identime_ios_sdk"
+      ],
+      "outputFileMapPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuthPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.IdentiMeAuthTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/sources",
+      "importPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Tests/IdentiMeAuthTests/IdentiMeAuthTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuth.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "IdentiMeAuthTests",
+      "moduleOutputPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuthTests.swiftmodule",
+      "objects" : [
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/IdentiMeAuthTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "identime_ios_sdk"
+      ],
+      "outputFileMapPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/IdentiMeAuthTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules/IdentiMeAuthTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/robbielove/uqdev/identime-ios-sdk/Tests/IdentiMeAuthTests/IdentiMeAuthTests.swift"
+      ],
+      "tempsPath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "IdentiMeAuth" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "IdentiMeAuth",
+      "-package-name",
+      "identime_ios_sdk",
+      "-c",
+      "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeAuth.swift",
+      "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeConfig.swift",
+      "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeError.swift",
+      "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeLoginButton.swift",
+      "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeToken.swift",
+      "-I",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/include/IdentiMeAuth-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "identime_ios_sdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "IdentiMeAuthPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "IdentiMeAuthPackageTests",
+      "-package-name",
+      "identime_ios_sdk",
+      "-c",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/include/IdentiMeAuthPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "identime_ios_sdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "IdentiMeAuthTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "IdentiMeAuthTests",
+      "-package-name",
+      "identime_ios_sdk",
+      "-c",
+      "/Users/robbielove/uqdev/identime-ios-sdk/Tests/IdentiMeAuthTests/IdentiMeAuthTests.swift",
+      "-I",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "identime_ios_sdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "IdentiMeAuth" : [
+
+    ],
+    "IdentiMeAuthPackageTests" : [
+      "IdentiMeAuthTests",
+      "IdentiMeAuth"
+    ],
+    "IdentiMeAuthTests" : [
+      "IdentiMeAuth"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeAuth.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeLoginButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Sources/IdentiMeAuth/IdentiMeToken.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/sources"
+    },
+    "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/sources"
+    },
+    "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeAuth.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeLoginButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuth.build/IdentiMeToken.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/IdentiMeAuthTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/robbielove/uqdev/identime-ios-sdk/Tests/IdentiMeAuthTests/IdentiMeAuthTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/IdentiMeAuthTests.build/sources"
+    },
+    "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/robbielove/uqdev/identime-ios-sdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
