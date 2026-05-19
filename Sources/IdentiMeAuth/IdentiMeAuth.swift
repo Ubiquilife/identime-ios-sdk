@@ -1,5 +1,30 @@
 import Foundation
+#if canImport(UIKit)
 import UIKit
+#elseif canImport(AppKit)
+import AppKit
+#endif
+
+/// Cross-platform URL opener. The iOS path tries the IdentiMe app's
+/// custom URL scheme first (returns false if the app isn't installed)
+/// and falls back to Safari; the macOS path goes straight to the
+/// default browser because there's no IdentiMe app on the Mac. Both
+/// call the completion handler with `success` so callers can chain a
+/// browser fallback when needed.
+@MainActor
+private func openURL(_ url: URL, universalLinksOnly: Bool = false,
+                     completion: @escaping (Bool) -> Void) {
+    #if canImport(UIKit) && !targetEnvironment(macCatalyst)
+    UIApplication.shared.open(url, options: [.universalLinksOnly: universalLinksOnly]) { success in
+        completion(success)
+    }
+    #elseif canImport(AppKit)
+    let success = NSWorkspace.shared.open(url)
+    completion(success)
+    #else
+    completion(false)
+    #endif
+}
 
 /// IdentiMe authentication SDK for iOS.
 ///
@@ -65,9 +90,10 @@ public final class IdentiMeAuth: @unchecked Sendable {
 
         guard let url = components.url else { return }
 
-        UIApplication.shared.open(url, options: [.universalLinksOnly: false]) { success in
+        openURL(url) { success in
             if !success {
-                // IdentiMe app not installed, fall back to browser
+                // IdentiMe app not installed (iOS) or no app on macOS,
+                // fall back to the browser.
                 var browserComponents = URLComponents(string: "\(self.config.identimeURL)/oauth/authorize")!
                 browserComponents.queryItems = [
                     URLQueryItem(name: "client_id", value: self.config.clientId),
@@ -76,7 +102,7 @@ public final class IdentiMeAuth: @unchecked Sendable {
                     URLQueryItem(name: "scope", value: ""),
                 ]
                 if let browserURL = browserComponents.url {
-                    UIApplication.shared.open(browserURL)
+                    openURL(browserURL) { _ in }
                 }
             }
         }
@@ -167,7 +193,8 @@ public final class IdentiMeAuth: @unchecked Sendable {
             accessToken: oauthToken.access_token,
             refreshToken: oauthToken.refresh_token,
             tokenType: oauthToken.token_type ?? "Bearer",
-            expiresIn: oauthToken.expires_in,
+            expiresIn: oauthToken.expires_in.map(TimeInterval.init),
+            scope: nil,
             user: user
         )
     }

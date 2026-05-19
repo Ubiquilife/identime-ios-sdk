@@ -14,8 +14,28 @@ public struct IdentiMeToken: Sendable {
     /// Token lifetime in seconds (if provided).
     public let expiresIn: Int?
 
-    /// The authenticated user's profile from IdentiMe.
-    public let user: IdentiMeUser
+    /// Space-separated OAuth scope granted by the server. Optional;
+    /// only the device-code flow surfaces this today.
+    public let scope: String?
+
+    /// The authenticated user's profile from IdentiMe. Optional
+    /// because the device-code flow returns a token without forcing
+    /// a profile fetch (caller decides whether to GET /api/v0/profile).
+    public let user: IdentiMeUser?
+
+    public init(accessToken: String,
+                refreshToken: String?,
+                tokenType: String,
+                expiresIn: TimeInterval?,
+                scope: String? = nil,
+                user: IdentiMeUser? = nil) {
+        self.accessToken = accessToken
+        self.refreshToken = refreshToken
+        self.tokenType = tokenType
+        self.expiresIn = expiresIn.map { Int($0) }
+        self.scope = scope
+        self.user = user
+    }
 }
 
 /// An authenticated user's profile from IdentiMe.

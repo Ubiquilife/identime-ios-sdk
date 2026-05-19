@@ -1,6 +1,31 @@
-# IdentiMeAuth iOS SDK
+# IdentiMeAuth SDK
 
-Authenticate iOS app users via [IdentiMe](https://identime.test) OAuth.
+Authenticate users via [IdentiMe](https://identime.ubiqui.life) OAuth from any Apple-platform app — **iOS 16+, macOS 13+**.
+
+Two grant types are supported:
+
+- **`IdentiMeAuth`** — redirect-callback flow. iOS-first; tries to bounce to the IdentiMe app via a custom URL scheme and falls back to Safari. Works on macOS too (always goes to the browser).
+- **`IdentiMeDeviceCode`** — OAuth 2.0 Device Authorization Grant (RFC 8628) with PKCE. Multiplatform; no UIKit/AppKit dependency. Designed for desktop / CLI / embedded contexts where a redirect URL is awkward. The user verifies on any browser, the app polls until approved.
+
+## Device-code quick start
+
+```swift
+import IdentiMeAuth
+
+let device = IdentiMeDeviceCode(config: IdentiMeConfig(
+    clientId: "your-public-client-id",
+    clientSecret: "",                       // public client; unused
+    identimeURL: "https://identime.example.com",
+    redirectURI: "myapp://oauth-callback"    // unused by device flow
+))
+
+let token = try await device.signIn(scope: "files:read profile:read") { approval in
+    print("Open \(approval.verificationURIComplete) and enter code \(approval.userCode)")
+}
+
+// Persist token.accessToken / token.refreshToken in Keychain. Refresh:
+let fresh = try await device.refresh(using: token.refreshToken!)
+```
 
 ## Installation
 

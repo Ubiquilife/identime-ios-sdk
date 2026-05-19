@@ -26,6 +26,13 @@ public enum IdentiMeError: Error, LocalizedError, Sendable {
     /// A network error occurred.
     case networkError(Error)
 
+    /// One of the configured URLs is malformed.
+    case invalidURL
+
+    /// Device-code flow timed out — the user did not approve before
+    /// the device_code expired (typically 5-10 minutes).
+    case deviceCodeExpired
+
     public var errorDescription: String? {
         switch self {
         case .noCodeReceived:
@@ -44,6 +51,10 @@ public enum IdentiMeError: Error, LocalizedError, Sendable {
             return "Failed to fetch user profile from IdentiMe."
         case .networkError(let error):
             return error.localizedDescription
+        case .invalidURL:
+            return "IdentiMe URL is malformed."
+        case .deviceCodeExpired:
+            return "The sign-in window expired. Please try again."
         }
     }
 }
