@@ -108,6 +108,27 @@ public final class IdentiMeAuth: @unchecked Sendable {
         }
     }
 
+    // MARK: - Logout
+
+    /// Ends the IdentiMe session and returns to the app.
+    ///
+    /// The SDK does not persist tokens, so clear your app's stored
+    /// `IdentiMeToken` yourself. This opens IdentiMe's end-session endpoint
+    /// (`/oauth/logout`) so the shared browser SSO session is ended too —
+    /// otherwise the next `login()` silently resumes the existing session
+    /// instead of prompting for credentials. IdentiMe validates `redirect`
+    /// against registered client redirect URIs and returns the browser to
+    /// `redirectURI`, which reopens the app.
+    @MainActor
+    public func logout() {
+        guard var components = URLComponents(string: "\(config.identimeURL)/oauth/logout") else { return }
+        components.queryItems = [
+            URLQueryItem(name: "redirect", value: config.redirectURI),
+        ]
+        guard let url = components.url else { return }
+        openURL(url) { _ in }
+    }
+
     // MARK: - Callback
 
     /// Handle the OAuth callback URL from IdentiMe.
